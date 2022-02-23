@@ -86,9 +86,9 @@ def main():
     print("-" * 60)
     print("Threader3000 recommends the following Nmap scan:")
     print("*" * 60)
-    print("nmap -p{ports} -sV -sC -T4 -Pn -oA {ip} {ip}".format(ports=",".join(discovered_ports), ip=target))
+    print("nmap -p{ports} -sVC -T4 -Pn -oA {ip} {ip}".format(ports=",".join(discovered_ports), ip=target))
     print("*" * 60)
-    nmap = "nmap -p{ports} -sV -sC -T4 -Pn -oA {ip} {ip}".format(ports=",".join(discovered_ports), ip=target)
+    nmap = "nmap -p{ports} -sVC -T4 -Pn -oA {ip} {ip}".format(ports=",".join(discovered_ports), ip=target)
     t3 = datetime.now()
     total1 = t3 - t1
 
