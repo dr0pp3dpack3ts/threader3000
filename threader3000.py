@@ -26,11 +26,11 @@ def main():
     discovered_ports = []
 
 # Welcome Banner
-    print("-" * 60)
-    print("        Threader 3000 - Multi-threaded Port Scanner          ")
-    print("                       Version 1.0.7                    ")
-    print("                   A project by The Mayor               ")
-    print("-" * 60)
+    print(colored(255,0,0, "-" * 60))
+    print(colored(255,0,0, "        Threader 3000 - Multi-threaded Port Scanner          "))
+    print(colored(255,0,0, "                       Version 1.0.7                    "))
+    print(colored(255,0,0, "                   A project by The Mayor               "))
+    print(colored(255,0,0, "-" * 60))
     time.sleep(1)
     target = input("Enter your target IP address or URL here: ")
     error = ("Invalid Input")
